@@ -8,3 +8,4 @@ App_name = 'denemeapp'
 urlpatterns = [
     path("", views.index.html),
 ] 
+

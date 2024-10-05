@@ -19,6 +19,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path("", include("denemeapp.urls")),
+    path("", include("denemeapp.urls")), #Burdaki tirnal icindeki yaziya gore adres cubuguna ne yazilacagi belirlenir
     path("admin/", admin.site.urls),
 ]

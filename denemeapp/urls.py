@@ -7,4 +7,6 @@ App_name = 'denemeapp'
 
 urlpatterns = [
     path("", views.MainView.as_view(), name="index"),
+    path("goster/", views.goster, name="goster"),
+    path("girdi/", views.girdi, name="girdi"),
 ] 
